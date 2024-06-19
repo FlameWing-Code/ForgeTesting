@@ -11,6 +11,11 @@
   "block.tutorialmod.nether_sapphire_ore": "Nether Sapphire Ore",
 
   "item.tutorialmod.metal_detector": "Metal Detector",
+  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground!",
+
+  "item.tutorialmod.strawberry": "Strawberry",
+
+  "item.tutorialmod.pine_cone": "Pine Cone",
 
   "block.tutorialmod.sound_block": "Sound BLock",
 
