@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.harvey.tutorialmod.block.ModBlocks;
 import net.harvey.tutorialmod.item.ModCreativeModeTabs;
 import net.harvey.tutorialmod.item.ModItems;
+import net.harvey.tutorialmod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +31,8 @@ public class TutorialMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
