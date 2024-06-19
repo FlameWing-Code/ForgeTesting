@@ -3,6 +3,7 @@ package net.harvey.tutorialmod.datagen;
 import net.harvey.tutorialmod.TutorialMod;
 import net.harvey.tutorialmod.item.ModItems;
 import net.harvey.tutorialmod.loot.AddItemModifier;
+import net.harvey.tutorialmod.loot.AddSusSandItemModifier;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
@@ -28,6 +29,10 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
         add("metal_detector_from_jungle_temples", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build() }, ModItems.METAL_DETECTOR.get()));
+
+
+        add("metal_detector_from_sus_sand", new AddSusSandItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build() }, ModItems.METAL_DETECTOR.get()));
 
 
     }
