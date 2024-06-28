@@ -35,6 +35,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SAPPHIRE_LEGGINGS.get());
                         pOutput.accept(ModItems.SAPPHIRE_BOOTS.get());
 
+                        pOutput.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+                        pOutput.accept(ModItems.THE_POWER_OF_TERRY_MUSIC_DISC.get());
+                        pOutput.accept(ModItems.NEVER_GONNA_GIVE_YOU_UP_MUSIC_DISC.get());
+
                         pOutput.accept(Items.DIAMOND);
 
                         pOutput.accept(ModItems.STRAWBERRY.get());

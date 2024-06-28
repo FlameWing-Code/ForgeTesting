@@ -54,6 +54,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CORN);
         simpleItem(ModItems.CORN_SEEDS);
 
+        simpleItem(ModItems.BAR_BRAWL_MUSIC_DISC);
+        simpleItem(ModItems.THE_POWER_OF_TERRY_MUSIC_DISC);
+        simpleItem(ModItems.NEVER_GONNA_GIVE_YOU_UP_MUSIC_DISC);
+
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
 
         fenceItem(ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_BLOCK);

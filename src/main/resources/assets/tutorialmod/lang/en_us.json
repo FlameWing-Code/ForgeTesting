@@ -11,6 +11,13 @@
   "item.tutorialmod.corn": "Corn",
   "item.tutorialmod.corn_seeds": "Corn Seeds",
 
+  "item.tutorialmod.bar_brawl_music_disc": "Music Disc",
+  "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+  "item.tutorialmod.the_power_of_terry_music_disc": "Old Spice",
+  "item.tutorialmod.the_power_of_terry_music_disc.desc": "Old Spice - THE POWER OF TERRY",
+  "item.tutorialmod.never_gonna_give_you_up_music_disc": "Music Disc",
+  "item.tutorialmod.never_gonna_give_you_up_music_disc.desc": "Rick Astley - Never Gonna Give you up",
+
   "block.tutorialmod.catmint": "Catmint",
 
   "item.tutorialmod.sapphire_staff": "Sapphire Staff",
@@ -47,6 +54,8 @@
   "block.tutorialmod.sapphire_trapdoor": "Sapphire Trapdoor",
 
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground!",
+
+  "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Jingle",
 
 
   "creativetab.tutorial_tab": "Sapphire Tutorial Tab"

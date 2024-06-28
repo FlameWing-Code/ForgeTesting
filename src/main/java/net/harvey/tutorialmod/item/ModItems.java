@@ -5,6 +5,7 @@ import net.harvey.tutorialmod.block.ModBlocks;
 import net.harvey.tutorialmod.item.custom.FuelItem;
 import net.harvey.tutorialmod.item.custom.MetalDetectorItem;
 import net.harvey.tutorialmod.item.custom.ModArmorItem;
+import net.harvey.tutorialmod.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -60,6 +61,13 @@ public class ModItems {
             () -> new ItemNameBlockItem(ModBlocks.CORN_CROP.get(),new Item.Properties()));
     public static final RegistryObject<Item> CORN = ITEMS.register("corn",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
+            () -> new RecordItem(6, ModSounds.BAR_BRAWL, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 2440));
+    public static final RegistryObject<Item> THE_POWER_OF_TERRY_MUSIC_DISC = ITEMS.register("the_power_of_terry_music_disc",
+            () -> new RecordItem(15, ModSounds.THE_POWER_OF_TERRY, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 19200));
+    public static final RegistryObject<Item> NEVER_GONNA_GIVE_YOU_UP_MUSIC_DISC = ITEMS.register("never_gonna_give_you_up_music_disc",
+            () -> new RecordItem(11, ModSounds.NEVER_GONNA_GIVE_YOU_UP, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 4260));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

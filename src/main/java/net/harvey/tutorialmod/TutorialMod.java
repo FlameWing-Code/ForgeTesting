@@ -5,6 +5,7 @@ import net.harvey.tutorialmod.block.ModBlocks;
 import net.harvey.tutorialmod.item.ModCreativeModeTabs;
 import net.harvey.tutorialmod.item.ModItems;
 import net.harvey.tutorialmod.loot.ModLootModifiers;
+import net.harvey.tutorialmod.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -40,6 +41,8 @@ public class TutorialMod {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        ModSounds.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
